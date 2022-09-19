@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: 0;
+}
+body{
+    height: 2500px;
+}
+div.wrapper{
+    width: 100vw;
+}
+header.header-class{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+div.banner-container{
+    width: 100%;
+    background-color: white;
+}
+div.banner-container>img{
+    max-width:100%;
+}
+div.logo-search-container{
+    width: 100%;
+    height: 68px;
+    background-color: white;
+}
+div.LSC-main{
+    height: 100%;
+    width: 1644px;
+    margin: 0 auto;
+    padding: 12px;
+    display: flex;
+}
+div.LSC-logo,div.LSC-search,div.LSC-login,div.LSC-VertLine,div.LSC-ShoppingCart{
+    height: 100%;
+    width: 100px;
+    display: inline-block;
+}
+div.LSC-logo{
+    width: 120px;
+    line-height: 65px;
+    text-align: right;
+}
+div.LSC-search{
+    width: 1230px;
+}
+div.LSC-login{
+    width: 200px;
+}
+div.LSC-VertLine{
+    width: 20px;
+}
+div.LSC-ShoppingCart{
+    width: 50px;
+}
+div.LSC-search-SearchBox{
+    height: 100%;
+    width: 600px;
+    background-color: #F0F0F1;
+    margin-left: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+span.LSC-search-SearchBox-text{
+    float: right;
+    line-height: 44px;
+    padding-right: 50px;
+}
+div.LSC-login-BorderBox{
+    height: 40px;
+    width: 135px;
+    position: relative;
+    top: 2px;
+    border-radius: 10px;
+    border: solid #d0d0d4 1px;
+}
+span.LSC-login-BorderBox-text{
+    display: block;
+    line-height: 40px;
+    text-align: center;
+}
+div.top-menu-container{
+    height: 40px;
+    width: 100%;
+    background-color: white;
+}
+div.TMCmain{
+    width: 1644px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+div.TMCmain-DasteBandiKala,div.TMCmain-EntekhabShahr,div.TMCmain-foroshande,div.TMCmain-Soal,div.TMCmain-ShegeftAngiz,div.TMCmain-Takhfif,div.TMCmain-Porforosh,div.TMCmain-Supermarket{
+    height: 100%;
+    width: 200px;
+    display: inline-block;
+}
+div.TMCmain-EntekhabShahr{
+    width: 915px;
+}
+div.TMCmain-Supermarket,div.TMCmain-Porforosh,div.TMCmain-Takhfif,div.TMCmain-ShegeftAngiz,div.TMCmain-Soal,div.TMCmain-foroshande,div.TMCmain-DasteBandiKala{
+    width: unset;
+    border-bottom: solid white 3px;
+    transition: 250ms;
+}
+span.TMCmain-DasteBandiKala-text,span.TMCmain-Supermarket-text,span.TMCmain-Porforosh-text,span.TMCmain-Takhfif-text,span.TMCmain-ShegeftAngiz-text,span.TMCmain-Soal-text,span.TMCmain-foroshande-text,span.TMCmain-EntekhabShahr-text{
+    padding: 0 12px 0 12px;
+    line-height: 40px;
+}
+div.TMCmain-DasteBandiKala:hover,div.TMCmain-Supermarket:hover,div.TMCmain-Porforosh:hover,div.TMCmain-Takhfif:hover,div.TMCmain-ShegeftAngiz:hover,div.TMCmain-Soal:hover,div.TMCmain-foroshande:hover{
+    border-bottom: solid red 3px;
+    transition: 200ms;
+    transform:translate(0px,-2px);
+}
+div.SliderContainer{
+    height: 400px;
+    width: 100%;
+    background-color: deeppink;
+}
+div.SliderContainer>img{
+    height: 100%;
+}
+div.Menu-Body-Container{
+    height: 100px;
+    width: 1304px;
+    margin: auto;
+    display: flex;
+    padding: 8px 12px 8px 12px;
+    margin-top: 24px;
+}
+div.MBC-Bishtar,div.MBC-mamoriat,div.MBC-Haraj,div.MBC-BazgashtBeMadrese,div.MBC-mehrabani,div.MBC-DigiPay,div.MBC-GhoreKeshi,div.MBC-DigiKalaJet{
+    height: 100%;
+    width: 163px;
+    display: inline-block;
+}
+div.MBC-Bishtar-pic,div.MBC-mamoriat-pic,div.MBC-Haraj-pic,div.MBC-BazgashtBeMadrese-pic,div.MBC-mehrabani-pic,div.MBC-DigiPay-pic,div.MBC-GhoreKeshi-pic,div.MBC-DigiKalaJet-pic{
+    width: 100%;
+    height: 52px;
+}
+div.MBC-Bishtar-text,div.MBC-mamoriat-text,div.MBC-Haraj-text,div.MBC-BazgashtBeMadrese-text,div.MBC-mehrabani-text,div.MBC-DigiPay-text,div.MBC-GhoreKeshi-text,div.MBC-DigiKalaJet-text{
+    width: 100%;
+    height: 32px;
+}
+img.MBC-img{
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+span.MBC-text{
+    display: block;
+    text-align: center;
+    line-height: 30px;
+}
+div.circle{
+    height: 52px;
+    width: 52px;
+    background-color: #F0F0F1;
+    margin: auto;
+    border-radius: 26px;
+    display: flex;
+}
+div.circle>img{
+    height: 60%;
+    display: block;
+    margin: auto;
+    line-height: 52px;
+}
+div.PishnahadShegeftAngiz-Container{
+    height: 286px;
+    width: 1304px;
+    margin: 24px auto 0 auto;
+    background-color: #F0394E;
+    border-radius: 20px;
+    padding: 20px 2px 20px 2px;
+    display: flex;
+}
+div.PSA-Product{
+    height: 100%;
+    width: 182px;
+    background-color: white;
+    display: inline-block;
+    padding: 12px 16px 12px 16px;
+    margin-left: 2px;
+}
+div.PSA-banner{
+    width: 173px;
+    height: 100%;
+    margin-left: 2px;
+}
+div.PSA-Product-L{
+    height: 100%;
+    width: 182px;
+    background-color: white;
+    display: inline-block;
+    padding: 12px 16px 12px 16px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+div.PSA-Product-R{
+    height: 100%;
+    width: 182px;
+    background-color: white;
+    display: inline-block;
+    padding: 12px 16px 12px 16px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 2px;
+}
+div.PSA-Product-pic>img{
+    width: 150px;
+}
+div.PSA-Product-price1{
+    height: 45px;
+    width: 100%;
+    display: flex;
+}
+div.PSA-Product-price2{
+    height: 25px;
+    width: 100%;
+}
+div.PSA-Product-price1-left{
+    height: 100%;
+    width: 75px;
+    display: inline-block;
+}
+div.PSA-Product-price1-right{
+    height: 100%;
+    width: 75px;
+    display: inline-block;
+}
+div.takhfif{
+    height: 20px;
+    width: 34px;
+    background-color: #F04056; 
+    border-radius: 10px;
+    padding: 0 4px 0 4px;
+    margin-top: 13px;
+    float: right;
+}
+span.PriceAlan{
+    font-size: 12px;
+    line-height: 45px;
+    font-weight: bold;
+}
+span.PriceGhabl{
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+    padding-left: 15px;
+}
+span.takhfif{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+}
+div.PSA-banner-title{
+    width: 100%;
+    height: fit-content;
+}
+div.PSA-banner-pic{
+    width:100%;
+    height: 50%;
+}
+div.PSA-banner-hame{
+    width: 100%;
+    height: 20%;
+}
+div.PSA-banner-pic>img{
+    width: 115px;
+    display: block;
+    margin: auto;
+}
+div.PSA-banner-title>img{
+    width: 72px;
+    display: block;
+    margin: auto;
+}
+div.PSA-banner-hame>span{
+    padding-left: 55px;
+    line-height: 50px;
+    font-weight: bold;
+    color: white;
+}
+div.ShegeftAngizSupermarket-container{
+    width: 1304px;
+    height: 102px;
+    background-color: #EBEEEB;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    background-image: url(../images/freshPattern.svg);
+    background-repeat: no-repeat;
+}
+div.SAS-NavadKala{
+    height: 50px;
+    width: 140px;
+    background-color: white;
+    margin-left: 40px;
+    line-height: 60px;
+    margin-top: 17px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+div.SAS-NavadKala>span{
+    font-weight: bold;
+    color: green;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+}
+div.SAS-kala{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 35px;
+    margin-top: 7px;
+}
+div.SAS-takhfif{
+    height: 28px;
+    width: 110px;
+    background-color: #39AE00;
+    margin-top: 28px;
+    margin-left: 120px;
+    border-radius: 14px;
+}
+div.SAS-text>img{
+    display: inline-block;
+    margin-top: 27px;
+    margin-left: 20px;
+    width: 250px;
+}
+div.SAS-pic>img{
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 62px;
+}
+div.SAS-kala>img{
+    width: 58px;
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+    border-radius: 20px;
+}
+div.ProductMid-container{
+    width: 1304px;
+    height: 235.5px;
+    margin: auto;
+    display: flex;
+    margin-top: 24px;
+}
+div.PM-aks{
+    height: 100%;
+    width: 314px;
+    display: inline-block;
+    margin-right: 15.5px;
+}
+div.PM-aks4{
+    height: 100%;
+    width: 314px;
+    display: inline-block;
+
+}
+div.PM-aks4>img{
+    width: 100%;
+    border-radius: 20px;
+}
+div.PM-aks>img{
+    width: 100%;
+    border-radius: 20px;
+}
+div.DastebandiDigikala-container{
+    width: 1304px;
+    height: 20px;
+    margin: auto;
+    margin-top: 50px;
+}
+div.DD-title>span{
+    font-size: 25px;
+    display: block;
+    text-align: center;
+}
+div.DD-Prod-Row1{
+    width: 100%;
+    height: 205px;
+    margin-top: 40px;
+    display: flex;
+    padding: 0 20px 0 20px;
+}
+div.DD-Prod-Row2{
+    width: 1055px;
+    height: 205px;
+    margin: 30px auto;
+    display: flex;
+}
+div.DD-PR1{
+    height: 100%;
+    width: 211px;
+    display: inline-block;
+}
+div.DD-pic{
+    height: 170px;
+    width: 170px;
+    margin: auto;
+    border-radius: 85px;
+}
+div.DD-text{
+    height: 55px;
+    width: 100%;
+}
+div.DD-pic>img{
+    width: 100%;
+}
+div.DD-text>span{
+    display: block;
+    text-align: center;
+    line-height: 50px;
+}
+div.TablighMid-container{
+    width: 1304px;
+    height: 200px;
+    background-color: red;
+    margin: auto;
+}
+
+
+
+
+div.MainBody{
+    width: 100%;
+    position: relative;
+    margin-top: max(180px,9%);
+}
+footer.footer-class{
+    position: relative;
+    height: 150px;
+    width: 100%;
+}
